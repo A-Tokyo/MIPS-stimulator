@@ -1,0 +1,28 @@
+addi $t0 $0 90
+addi $s0 $0 10
+addi $s1 $0 25
+addi $s2 $0 80
+add $t1 $t0 $s0
+sub $s3 $t0 $s0
+sw $t0 500($0)
+and $s1 $t0 $s0
+or $s2 $t0 $s0
+sll $t1 $s0 3
+srl $t2 $s0 1
+slt $t1 $t0 $s0
+slt $s3 $s0 $t0
+lw $t0 800($0)
+lw $t1 500($0)
+lui $s0 16 
+beq $0 $s0 4
+beq $0 $0 2
+addi $s1 $0 25
+addi $s2 $0 80
+addi $s0 $0 22
+bne $0 $0 4
+bne $0 $s0 2
+addi $s1 $0 25
+addi $s2 $0 80
+addi $s0 $0 12
+j 0
+END
