@@ -1,0 +1,6 @@
+{
+  "name": "Mips-stimulator",
+  "tagline": "A MIPS instruction set program stimulator.",
+  "body": "# MIPS-stimulator\r\nA MIPS instruction set program stimulator.\r\n\r\nThis application permits you to write a code in MIPS assembly then it stimulates the execution of the program on the MIPS architecture;\r\nshowing the status of the registers, flags and clock.\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
